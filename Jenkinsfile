@@ -3,7 +3,7 @@ ipeline{
 	agent any
 
 	environment {
-		DOCKERHUB_CREDENTIALS=credentials('dockerhub')
+		DOCKERHUB_CREDENTIALS=credentials('dockerhub_id')
 	}
 
 	stages {
