@@ -1,6 +1,6 @@
 ipeline{
 
-	agent {label 'linux'}
+	agent any
 
 	environment {
 		DOCKERHUB_CREDENTIALS=credentials('dockerhub')
